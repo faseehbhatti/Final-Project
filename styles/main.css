@@ -1,0 +1,158 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+
+}
+html {background-color: white}
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 125%;
+	width: 99%;
+	max-width:75em ;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	border: solid white;
+	background-color: white;
+
+}
+
+/* the styles for the header */
+header {border-bottom: solid #6485b5;
+		padding-top: 1.5em;
+		padding-bottom: 2em;
+		background: linear-gradient(30deg, rgba(145, 150, 159, 0) 0%, white 30%, white 50%, #9ea1a4 80%, lightsteelblue 100%) }
+header img {
+	float: left;
+	padding-left: 3%;
+	padding-right: 3%;
+	}
+
+
+header h2{font-size: 170%;
+	color: #6485b5;
+	}
+
+header h3{font-size: 130%;
+	font-style: italic;
+
+	}
+
+.navbar {
+
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+
+.card {
+object-fit: contain;
+	object-position: center;
+float: right;
+border: 2px solid black;
+width: 26%;
+margin: 2em 2em;
+	margin-bottom: 5em;
+}
+
+.containercard {
+	max-width: 15em;
+	text-align: center;
+}
+
+
+main {
+	clear: left;
+}
+
+/* article */
+.img-responsive {
+	object-fit: cover; /* Do not scale the image */
+	object-position: center; /* Center the image within the element */
+	width: 100%;
+	max-height: 175px;
+	margin-bottom: 2rem;
+}
+.article {
+	position: center;
+	padding: 1em 0;
+	margin: 0 7em;
+	border-right: 2em;
+	border-left: 2em;
+}
+.letter {
+	font-size: 14px;
+}
+.article h1 {
+	font-size: 150%;
+	padding-top: 0;
+}
+.article h2 {
+	padding-top: 0;
+	font-size: 120%;
+}
+.article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+
+/* the styles for the art photos */
+.artphoto {
+	object-fit: contain; /* Do not scale the image */
+	float: right; /* Center the image within the element */
+	width: 100%;
+	max-height: 200px;
+	margin-bottom: 2rem;
+}
+.anotherartphoto {
+	object-fit: contain; /* Do not scale the image */
+	float: left; /* Center the image within the element */
+	width: 100%;
+	max-height: 200px;
+	margin-bottom: 2rem;
+}
+
+/* the styles for the footer */
+footer{
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+}
+
+.footer {
+	background: #828588;
+	height: 50px;
+	margin-left: 0 7em;
+	width: 100%;
+	max-width: 75em;
+	text-align:center;
+	color:#ffffff;
+}
+
+.footer p {
+padding-top: 1em}
+}
+
+#mobile_menu {
+	display: none;
+}
+
+@media only screen and (max-width: 959px) {
+	section h1 { font-size: 135%; }
+	section h2, aside h2 { font-size: 120%; }
+}
+
+@media only screen and (max-width: 767px) {
+	header img { float: none; }
+	header { text-align: center; }
+	section {
+		float: none;
+		width: 95%;
+	}
+
+
